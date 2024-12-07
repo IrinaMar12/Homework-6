@@ -1,8 +1,7 @@
-name="Irina" #- string
-print(name)
-age=58         #- int
-print(age)
-new_age=age+2       #-int
-print(new_age)
-is_student =True    #bool
-print(is_student)
+my_string=input("введите название вашего города: ") #- для ввода данных от пользователя
+print(len(my_string))                       #- кол-во символов в строке
+print("привет, как у тебя дела?" .upper())  #-команда переключает строку в верхний регистр
+print("привет, как у тебя дела?" .lower())  #-команда переключает строку в нижний регистр
+print("привет, как у тебя дела?" .replace(' ','')) #- команда д/замены символов в строке
+print(my_string[0])                         #- первый символ строки  'my_string'
+print(my_string[-1])                       #- второй символ строки  'my_string'
